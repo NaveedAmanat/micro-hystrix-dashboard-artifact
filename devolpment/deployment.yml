@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hystrix-dashboard-app
-          image: naveed0004/hystrix-dashboard:2
+          image: naveed0004/hystrix-dashboard:3
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9295
